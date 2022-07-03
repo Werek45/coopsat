@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+
+   div#interface
+   {
+    width: 40rem;  
+    background-color: #ffffff;
+    margin: -1rem auto 0rem auto;
+    box-shadow: 0rem 0rem 2rem rgba(0, 0, 0, .5);
+    padding: 2rem;
+   }
+
  h1
     {
         font-family: Arial;
@@ -17,7 +27,7 @@
  figure.foto-legenda
  {
     position : relative;
-    border: 1px solid white;
+    border: .1rem solid white;
     box-shadow: 1px 2px 4px black;
  }
 
@@ -48,6 +58,13 @@
  nav#menu li
  {
    display: inline-block;
+ }
+
+ figure.foto-legenda
+ {
+   position: relative;
+   padding: .7rem solid white;
+   box-shadow: .2rem .6rem 2rem black;
  }
 
  figure.foto-legenda img
